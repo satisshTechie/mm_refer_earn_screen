@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* DESKTOP */
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem 4rem 0rem 4rem;
+  background: #ffffff;
+}
+.title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0081ff;
+}
+.balance {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 1rem 0rem 1rem 0rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.add_balance {
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.9rem 1.6rem;
+  background: #0081ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.refer_contribution {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.refer_side,
+.contribution_side {
+  padding: 0rem 4rem;
+}
+.refer_side h1,
+.contribution_side h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.refer_side h2,
+.contribution_side h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: #aaaaaa;
+  padding: 1rem 0rem;
+  font-size: 1.5rem;
+}
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+.referral_code {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.icons {
+  text-align: center;
+}
+.icons img {
+  background: rgba(0, 129, 255, 0.1);
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin: 1.5rem 2rem;
+  user-select: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px -4px 40px rgba(0, 0, 0, 0.1);
+  height: 5rem;
+  user-select: none;
+}
+.deposit,
+.earn,
+.profile,
+.home,
+.referral {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0rem 1.5rem;
+}
+.deposit img,
+.referral img,
+.home img,
+.earn img,
+.profile img {
+  height: 1.5rem;
+}
+.deposit h3,
+.referral h3,
+.home h3,
+.earn h3,
+.profile h3 {
+  font-size: 01rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #868383;
+}
+#referral {
+  background: #0081ff;
+  border-radius: 8px;
+  height: 3rem;
+  margin: 1rem 0rem;
+}
+#referral h3 {
+  color: #ffffff;
+}
+
+/* TABLET */
+@media (max-width: 800px) {
+  body {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3rem 3rem 0rem 3rem;
+    background: #ffffff;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .balance {
+    font-size: 2.5rem;
+    padding: 1.5rem 0rem 0.7rem 0rem;
+  }
+  .button {
+    padding: 0.7rem 0rem;
+  }
+  .add_balance {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+  }
+  .refer_contribution {
+    padding: 1.5rem 0rem;
+  }
+  .refer_side,
+  .contribution_side {
+    padding: 0rem 3rem;
+  }
+  .refer_side h1,
+  .contribution_side h1 {
+    font-size: 2rem;
+  }
+
+  .refer_side h2,
+  .contribution_side h2 {
+    padding: 0.8rem 0rem;
+    font-size: 1.3rem;
+  }
+  .text {
+    font-size: 1.4rem;
+    padding: 1.5rem 0rem;
+  }
+  .referral_code {
+    font-size: 2rem;
+  }
+  .icons img {
+    padding: 0.6rem;
+    margin: 2rem 1.6rem;
+  }
+  .footer {
+    height: 4rem;
+    padding: 0rem;
+  }
+  .deposit,
+  .earn,
+  .profile,
+  .home,
+  .referral {
+    gap: 0.4rem;
+    padding: 0rem 0.4rem;
+  }
+  .deposit img,
+  .referral img,
+  .home img,
+  .earn img,
+  .profile img {
+    height: 1.3rem;
+  }
+  .deposit h3,
+  .referral h3,
+  .home h3,
+  .earn h3,
+  .profile h3 {
+    font-size: 0.8rem;
+  }
+  #referral {
+    height: 2.5rem;
+    margin: 0.8rem 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 3rem 2rem 0rem 2rem;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .balance {
+    font-size: 2.3rem;
+    padding: 1.5rem 0rem 0.7rem 0rem;
+  }
+  .add_balance {
+    font-size: 1rem;
+    padding: 0.7rem 1.3rem;
+  }
+  .refer_contribution {
+    padding: 2rem 0rem;
+  }
+  .refer_side,
+  .contribution_side {
+    padding: 0rem 2.8rem;
+  }
+  .refer_side h1,
+  .contribution_side h1 {
+    font-size: 1.8rem;
+  }
+
+  .refer_side h2,
+  .contribution_side h2 {
+    padding: 0.8rem 0rem;
+    font-size: 1.2rem;
+  }
+  .text {
+    font-size: 1.4rem;
+    padding: 1.5rem 0rem;
+  }
+  .referral_code {
+    font-size: 1.7rem;
+  }
+  .icons img {
+    padding: 0.5rem;
+    margin: 2.5rem 1.6rem;
+  }
+  .deposit,
+  .earn,
+  .profile,
+  .home,
+  .referral {
+    gap: 0.4rem;
+    padding: 0rem 0.2rem;
+  }
+  .deposit img,
+  .referral img,
+  .home img,
+  .earn img,
+  .profile img {
+    height: 1.1rem;
+  }
+  .deposit h3,
+  .referral h3,
+  .home h3,
+  .earn h3,
+  .profile h3 {
+    font-size: 0.6rem;
+  }
+  #referral {
+    height: 1.8rem;
+    margin: 01.2rem 0rem;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 375px) {
+  body {
+    margin: 0 auto;
+    padding: 3rem 2rem 0rem 2rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .balance {
+    font-size: 2.1rem;
+    padding: 1.5rem 0rem 0.7rem 0rem;
+  }
+  .add_balance {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.32rem;
+  }
+  .refer_contribution {
+    padding: 2rem 0rem;
+  }
+  .refer_side,
+  .contribution_side {
+    padding: 0rem 2.2rem;
+  }
+  .refer_side h1,
+  .contribution_side h1 {
+    font-size: 1.5rem;
+  }
+  .refer_side h2,
+  .contribution_side h2 {
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1.1rem;
+    padding: 1.5rem 0rem;
+  }
+  .referral_code {
+    font-size: 1.5rem;
+  }
+  .icons img {
+    padding: 0.4rem;
+    margin: 1rem 1.6rem;
+  }
+  .footer {
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .deposit,
+  .earn,
+  .profile,
+  .home,
+  .referral {
+    display: block;
+    padding: 1rem 0.5rem;
+  }
+  .deposit img,
+  .referral img,
+  .home img,
+  .earn img,
+  .profile img {
+    height: 1.2rem;
+    padding: 0rem 0.5rem;
+  }
+  #referral {
+    background: none;
+    border-radius: 0px;
+    height: auto;
+    margin: 0;
+  }
+  .deposit h3,
+  .referral h3,
+  .home h3,
+  .earn h3,
+  .profile h3 {
+    font-weight: 400;
+  }
+  #referral h3 {
+    font-size: 0.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #0081ff;
+  }
+  /* #referral img {
+    fill: yellowgreen;
+  } */
+}
